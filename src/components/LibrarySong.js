@@ -1,12 +1,38 @@
 import React from "react";
+import { playAudio } from "../utils";
 
-const LibrarySong = ({ song, songs, setCurrentSong }) => {
+const LibrarySong = ({
+  song,
+  songs,
+  setCurrentSong,
+  audioRef,
+  isPlaying,
+  setSongs,
+}) => {
   const songSelectHandler = () => {
-    const selectedSong = songs.filter((state) => state.id === song.id);
+    //const selectedSong = songs.filter((state) => state.id === song.id);
     setCurrentSong(song);
+    const newSongs = songs.map((newSong) => {
+      if (newSong.id === song.id) {
+        return {
+          ...newSong,
+          active: true,
+        };
+      } else {
+        return {
+          ...newSong,
+          active: false,
+        };
+      }
+    });
+    setSongs(newSongs);
+    playAudio(isPlaying, audioRef);
   };
   return (
-    <div onClick={songSelectHandler} className="library-song">
+    <div
+      onClick={songSelectHandler}
+      className={`library-song ${song.active ? "selected" : ""}`}
+    >
       <img alt={song.name} src={song.cover}></img>
       <div className="song-description">
         <h3>{song.name}</h3>
