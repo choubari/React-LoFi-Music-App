@@ -67,6 +67,12 @@ function App() {
         src={currentSong.audio}
         onEnded={songEndHandler}
       ></audio>
+      <h4 className="footer">
+        Made with ❤️️ by{" "}
+        <a className="link" href="https://github.com/choubari/">
+          Choubari
+        </a>
+      </h4>
     </div>
   );
 }

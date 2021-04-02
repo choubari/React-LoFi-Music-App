@@ -61,6 +61,16 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Velocities",
+      cover: "https://i.scdn.co/image/ab67616d0000b2734fb6a52430e65dbc6c593faf",
+      artist: "Sleepy Fish",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=3524",
+      color: ["#74c7b4", "#1d6d92"],
+      id: uuidv4(),
+      active: false,
+    },
+
     //ADD MORE HERE
   ];
 }

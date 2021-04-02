@@ -20,7 +20,22 @@ h4 {
   transition: all 0.5s ease;
 }
 .library-active {
-  margin-left: 30%;
+  margin-left: 20%;
+}
+
+.footer {
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  @media screen and (max-width: 768px) {
+    padding: 1rem;
+  }
+}
+
+.link {
+  text-decoration: none;
 }
 
 @import "./song";
