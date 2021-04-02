@@ -9,9 +9,11 @@
 - A Responsive Web-App to enjoy and chill Lofi Beats.
 - Developed using ReactJS.
 - Beautiful styling using SASS.
-- Music Collected manualy from [ChillHop](https://chillhop.com/) and stored in [playlist.js](/playlist.js).
+- Music Collected manually from [ChillHop](https://chillhop.com/) and stored in [playlist.js](/src/playlist.js).
 - Deployed on Vercel or Netlify
 - [Live DEMO]()
+
+## Screenshots :
 
 <br>
 <p align="center">
