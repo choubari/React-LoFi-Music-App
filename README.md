@@ -1,6 +1,5 @@
-<h2 align="center">Chill 💿 Choub</h2>
+<h1 align="center">Chill 💿 Choub</h1>
 
----
 
 <p align="center">🎵 Your favorite LoFi Music Player🎧</p>
 <p align="center">⭐⭐⭐⭐⭐</a></p>
@@ -13,10 +12,6 @@
 - Music Collected manualy from [ChillHop](https://chillhop.com/) and stored in [playlist.js](/playlist.js).
 - Deployed on Vercel or Netlify
 - [Live DEMO]()
-
-<br>
-
----
 
 <br>
 <p align="center">
