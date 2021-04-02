@@ -10,8 +10,8 @@
 - Developed using ReactJS.
 - Beautiful styling using SASS.
 - Music Collected manually from [ChillHop](https://chillhop.com/) and stored in [playlist.js](/src/playlist.js).
-- Deployed on Vercel or Netlify
-- [Live DEMO]()
+- Deployed on Vercel.
+- [Live DEMO](https://chill-choub.vercel.app/)
 
 ## Screenshots :
 
