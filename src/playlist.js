@@ -9,6 +9,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=11768",
       color: ["#47609D", "#E88774"],
       id: uuidv4(),
+      active: true,
     },
     {
       name: "Beaver Creek",
@@ -18,7 +19,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Daylight",
@@ -48,6 +49,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10310",
       color: ["#335561", "#3A393E"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Bliss",
@@ -57,6 +59,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9248",
       color: ["#2A416D", "#E98087"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Growing Apart",
@@ -66,6 +69,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9219",
       color: ["#BD3D76", "#551853"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Sails",
@@ -75,6 +79,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9355",
       color: ["#F2C5AB", "#BE5853"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Cruisin'",
@@ -84,6 +89,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=8200",
       color: ["#FF194A", "#41B3B3"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Maple Leaf Pt.2",
@@ -93,6 +99,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10243",
       color: ["#CA483B", "#682C24"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Nightfall",
@@ -122,6 +129,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=8264",
       color: ["#90B4AA", "#F2AE87"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Eastway",
@@ -131,6 +139,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9071",
       color: ["#B442A1", "#F54F7A"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Wake up",
@@ -140,6 +149,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=8285",
       color: ["#A35CA0", "#EE8D66"],
       id: uuidv4(),
+      active: false,
     },
     {
       name: "Under the City Stars",
@@ -168,6 +178,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10460",
       color: ["#C668B2", "#4D92D7"],
       id: uuidv4(),
+      active: false,
     },
 
     //ADD MORE HERE
